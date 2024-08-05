@@ -1,0 +1,78 @@
+# Angular (Frontend)
+/frontend/tmp
+/frontend/out-tsc
+/frontend/bazel-out
+/frontend/node_modules
+/frontend/npm-debug.log
+/frontend/yarn-error.log
+/frontend/.angular
+
+# Angular IDE - if using VSCode
+/frontend/.idea
+/frontend/.project
+/frontend/.classpath
+/frontend/.c9/
+/frontend/*.launch
+/frontend/.settings/
+/frontend/*.sublime-workspace
+
+# Angular misc
+/frontend/.sass-cache
+/frontend/connect.lock
+/frontend/coverage
+/frontend/libpeerconnection.log
+/frontend/testem.log
+/frontend/typings
+
+# Flask (Backend)
+/backend/venv/
+/backend/__pycache__/
+/backend/*.pyc
+/backend/*.pyo
+/backend/*.pyd
+/backend/.Python
+/backend/pip-log.txt
+/backend/pip-delete-this-directory.txt
+/backend/.env
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Database
+*.sqlite3
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Dependency directories
+node_modules/
+
+# Profiling files
+chrome-profiler-events*.json
+
+# Build artifacts
+*.tsbuildinfo
